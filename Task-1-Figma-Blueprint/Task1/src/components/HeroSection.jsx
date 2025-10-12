@@ -13,7 +13,7 @@ const HeroSection = () => {
         <p className="mb-8 text-lg md:text-xl font-medium opacity-85 text-left">
           Aliquam adipiscing velit semper morbi. Purus non eu cursus porttitor tristique et gravida. Quis nunc interdum gravida ullamcorper.
         </p>
-        <button className="bg-[#FF9E0C] hover:bg-[#ffc369]  transition font-semibold flex justify-between rounded-lg px-6 py-3  text-white"     onClick={() => navigate('/cars')}>
+        <button className="bg-[#FF9E0C] hover:bg-[#ffc369]  transition font-semibold flex justify-between rounded-lg px-6 py-3  text-white" onClick={() => navigate('/cars')}>
           View all cars
         </button>
       </div>
@@ -25,12 +25,29 @@ const HeroSection = () => {
           <form className="flex flex-col gap-4">
             <select className="p-3 rounded-lg border border-gray-200 focus:outline-none">
               <option>Car type</option>
+              <option value="sedan">Sedan</option>
+              <option value="suv">SUV</option>
+              <option value="convertible">Convertible</option>
+              <option value="pickup">Pickup</option>
+              <option value="minivan">Minivan</option>
             </select>
             <select className="p-3 rounded-lg border border-gray-200 focus:outline-none">
               <option>Place of rental</option>
+              <option value="delhi">Delhi</option>
+              <option value="mumbai">Mumbai</option>
+              <option value="bengaluru">Bengaluru</option>
+              <option value="hyderabad">Hyderabad</option>
+              <option value="chennai">Chennai</option>
+              <option value="kolkata">Kolkata</option>
             </select>
             <select className="p-3 rounded-lg border border-gray-200 focus:outline-none">
               <option>Place of return</option>
+              <option value="delhi">Delhi</option>
+              <option value="mumbai">Mumbai</option>
+              <option value="bengaluru">Bengaluru</option>
+              <option value="hyderabad">Hyderabad</option>
+              <option value="chennai">Chennai</option>
+              <option value="kolkata">Kolkata</option>
             </select>
             <input type="date" className="p-3 rounded-lg border border-gray-200 focus:outline-none" placeholder="Rental date" />
             <input type="date" className="p-3 rounded-lg border border-gray-200 focus:outline-none" placeholder="Return date" />

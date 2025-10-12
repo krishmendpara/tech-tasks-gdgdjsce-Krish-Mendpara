@@ -19,7 +19,7 @@ function Home() {
       <AfterHero />
       <FeatureListSection />
       <CarGridSection />
-      <FactsInNumbersSection/>
+      <FactsInNumbersSection />
       <DownloadAppSection/>
       <CarSearchSection/>
       <Footer/>

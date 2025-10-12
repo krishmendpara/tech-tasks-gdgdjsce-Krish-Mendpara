@@ -25,7 +25,7 @@ const facts = [
 
 const FactsInNumbersSection = () => (
     
-        <div className="bg-[#5C3DFF] rounded-2xl px-4 md:px-12 py-15 max-w-6xl w-full text-center relative overflow-hidden">
+        <div className="bg-[#5C3DFF] rounded-2xl px-4 md:px-12 py-15 max-w-7xl w-full  text-center relative overflow-hidden">
             <h2 className="text-white font-extrabold text-2xl md:text-3xl mb-2">Facts In Numbers</h2>
             <p className="text-white text-sm mb-9 max-w-2xl mx-auto opacity-80">
                 Amit eos hac vel iaculis. Faucibus posuere arcu lectus nibh sapien bibendum ullamcorper

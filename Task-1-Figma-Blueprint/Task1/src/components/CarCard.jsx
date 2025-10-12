@@ -1,7 +1,7 @@
 import { Car, Snowflake, Fuel, Settings, CarIcon } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-const cars = [
+export const cars = [
   {
     name: "Mercedes",
     type: "Sedan",
@@ -39,9 +39,12 @@ const cars = [
     unit: "per day",
   },
 ];
-export const CarCard = ({ car }) => (
+
+export const CarCard = ({ car }) => {
+  const navigate = useNavigate();
+  return(
   <div className="rounded-2xl border border-gray-200 px-6 pt-7 pb-6 bg-white flex flex-col">
-    {/* Placeholder for car image */}
+    
     <div className="w-full flex justify-center mb-3">
       <img src="/carShadow.jpg" className="opacity-25"/>
     </div>
@@ -59,9 +62,11 @@ export const CarCard = ({ car }) => (
       <span className="flex items-center gap-1"><Fuel size={16}/>PB 95</span>
       <span className="flex items-center gap-1"><Snowflake size={16}/>Air Conditioner</span>
     </div>
-    <button className="bg-[#7746EC] hover:bg-[#5C3DFF] transition text-white font-semibold rounded-lg py-3 mt-6">View Details</button>
-  </div>
-);
+    <button className="bg-[#7746EC] hover:bg-[#5C3DFF] transition text-white font-semibold rounded-lg py-3 mt-6" onClick={()=>{
+      navigate('/specs')
+    }}>View Details</button>
+  </div>)
+}
 
 const CarGridSection = () => {
 const navigate = useNavigate();

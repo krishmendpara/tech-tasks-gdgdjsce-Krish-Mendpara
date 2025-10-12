@@ -1,6 +1,6 @@
 const CarSearchSection = () => (
  
-    <div className="relative bg-[#5C3DFF] rounded-2xl px-6 sm:px-16 py-12 max-w-6xl w-full flex flex-col md:flex-row items-center overflow-hidden">
+    <div className="relative bg-[#5C3DFF] rounded-2xl px-6 sm:px-16 py-12 max-w-7xl w-full flex flex-col md:flex-row items-center overflow-hidden">
     
       <div className="flex-1 z-10">
         <h2 className="text-white font-extrabold text-3xl text-left md:text-4xl mb-2">

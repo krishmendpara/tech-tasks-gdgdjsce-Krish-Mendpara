@@ -1,7 +1,9 @@
 import React from "react";
 import { CarFront, Phone } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+    const navigate = useNavigate()
     return (
 
         <div className="">
@@ -15,11 +17,21 @@ const Navbar = () => {
 
 
                 <div className="hidden md:flex space-x-6">
-                    <a href="#" className="text-black hover:text-[#5937E0] font-medium">Home</a>
-                    <a href="#" className="text-black hover:text-[#5937E0] font-medium">Vehicles</a>
-                    <a href="#" className="text-black hover:text-[#5937E0] font-medium">Details</a>
-                    <a href="#" className="text-black hover:text-[#5937E0] font-medium">About Us</a>
-                    <a href="#" className="text-black hover:text-[#5937E0] font-medium">Contact Us</a>
+                    <a href="#" className="text-black hover:text-[#5937E0] font-medium" onClick={()=>{
+                             navigate('/')
+                    }}>Home</a>
+                    <a href="#" className="text-black hover:text-[#5937E0] font-medium"  onClick={()=>{
+                             navigate('/cars')
+                    }}>Vehicles</a>
+                    <a href="#" className="text-black hover:text-[#5937E0] font-medium" onClick={()=>{
+                        navigate('/details')
+                    }}>Details</a>
+                    <a href="#" className="text-black hover:text-[#5937E0] font-medium"onClick={()=>{
+                        navigate('/aboutus')
+                    }}>About Us</a>
+                    <a href="#" className="text-black hover:text-[#5937E0] font-medium"onClick={()=>{
+                        navigate('/contactus')
+                    }}>Contact Us</a>
                 </div>
 
 

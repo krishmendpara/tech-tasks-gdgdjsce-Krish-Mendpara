@@ -1,6 +1,6 @@
 const DownloadAppSection = () => (
   <section className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center py-16">
-    {/* Left: Text and badges */}
+  
     <div className="flex-1 flex flex-col items-start md:items-start mb-12 md:mb-0 md:mr-12">
       <h2 className="text-3xl md:text-4xl text-left font-extrabold mb-3">
         Download<br />mobile app

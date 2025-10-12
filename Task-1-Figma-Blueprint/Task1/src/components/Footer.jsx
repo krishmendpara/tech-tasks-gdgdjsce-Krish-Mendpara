@@ -2,15 +2,15 @@ import { MapPin, Mail, Phone, Facebook, Instagram, X, Globe, CarFront } from "lu
 
 const Footer = () => (
  
-    <div className="w-full max-w-6xl border border-dashed border-blue-300 rounded-2xl px-6 py-7 flex flex-col gap-6">
-      {/* Top Row: Brand & Quick Info */}
+    <div className="w-full max-w-7xl px-6 py-7 flex flex-col gap-6">
+     
       <div className="flex flex-wrap md:flex-nowrap justify-between items-center gap-y-4">
-        {/* Brand */}
+    
         <div className="flex items-center min-w-[180px] mr-6">
          <CarFront/>
           <span className="font-semibold ml-2">Car Rental</span>
         </div>
-        {/* Address */}
+     
         <div className="flex items-center min-w-[220px] mr-6">
           <MapPin className="w-6 h-6 text-[#FFB100] bg-[#FFB100]/20 rounded-full p-1.5 mr-2" />
           <div>
@@ -18,7 +18,7 @@ const Footer = () => (
             <div className="text-xs font-semibold">Oxford Ave. Cary, NC 27511</div>
           </div>
         </div>
-        {/* Email */}
+      
         <div className="flex items-center min-w-[220px] mr-6">
           <Mail className="w-6 h-6 text-[#FFB100] bg-[#FFB100]/20 rounded-full p-1.5 mr-2" />
           <div>
@@ -26,7 +26,7 @@ const Footer = () => (
             <div className="text-xs font-semibold">nwiger@yahoo.com</div>
           </div>
         </div>
-        {/* Phone */}
+      
         <div className="flex items-center min-w-[180px]">
           <Phone className="w-6 h-6 text-[#FFB100] bg-[#FFB100]/20 rounded-full p-1.5 mr-2" />
           <div>
@@ -36,7 +36,7 @@ const Footer = () => (
         </div>
       </div>
 
-      {/* Bottom Row: Content Columns */}
+    
       <div className="flex flex-row gap-2 md:flex-nowrap justify-between items-start mt-3 gap-y-6">
         {/* About & Social */}
         <div className="flex flex-col  min-w-[220px]">
@@ -50,7 +50,7 @@ const Footer = () => (
             <a href="#"><Globe className="w-5 h-5" /></a>
           </div>
         </div>
-        {/* Useful Links */}
+    
         <div className="flex flex-col pr-10 min-w-[120px]">
           <div className="font-bold mb-2">Useful links</div>
           <ul className="space-y-1 text-sm">
@@ -61,7 +61,7 @@ const Footer = () => (
             <li><a href="#">F.A.Q</a></li>
           </ul>
         </div>
-        {/* Vehicles */}
+       
         <div className="flex flex-col pr-10 min-w-[120px]">
           <div className="font-bold mb-2">Vehicles</div>
           <ul className="space-y-1 text-sm">
@@ -72,7 +72,7 @@ const Footer = () => (
             <li>SUV</li>
           </ul>
         </div>
-        {/* Download App */}
+       
         <div className="flex flex-col pr-15 min-w-[130px]">
           <div className="font-bold mb-2">Download App</div>
           <img src="/as.png" alt="App Store" className="h-9 mb-2 rounded" />
@@ -80,7 +80,7 @@ const Footer = () => (
         </div>
       </div>
 
-      {/* Footer Caption */}
+
       <div className="text-center text-xs text-gray-400 mt-6 tracking-wider">
         2025 CARRENTAL.COM. RANDOM PLACEHOLDER PRIVACY & POLICY.
       </div>
