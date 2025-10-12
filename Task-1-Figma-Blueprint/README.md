@@ -30,7 +30,7 @@ This project highlights my ability to:
 🌍 Deployment
 
    This project is currently not live-deployed. To view and test locally:
-   git clone ""
+   git clone "https://github.com/krishmendpara/tech-tasks-gdgdjsce-Krish-Mendpara.git"
    cd cd .\Task-1-Figma-Blueprint\
    cd cd .\Task1\
    npm install
@@ -50,4 +50,5 @@ This project highlights my ability to:
 <img width="1525" height="912" alt="Screenshot 2025-10-12 230359" src="https://github.com/user-attachments/assets/23fb49bf-188f-4745-aec0-fd1d1e8651b4" />
 
  
+
 
