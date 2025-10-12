@@ -36,7 +36,7 @@ This project highlights my ability to:
    npm install <br/>
    npm run dev<br/>
 
- <b> Screenshots<b>
+ <b> Screenshots <b> <br/>
  <img width="874" height="904" alt="Screenshot 2025-10-12 225609" src="https://github.com/user-attachments/assets/84182f0b-f2a2-479f-9422-5f770710efe3" />
 <img width="1478" height="907" alt="Screenshot 2025-10-12 230252" src="https://github.com/user-attachments/assets/3fc94c5f-9add-4c36-a5b1-7b6161537f2e" />
  <img width="1525" height="912" alt="Screenshot 2025-10-12 230359" src="https://github.com/user-attachments/assets/0d7531fb-cd19-4c5e-bcdf-238b015e1ae1" />
@@ -50,6 +50,7 @@ This project highlights my ability to:
 <img width="1525" height="912" alt="Screenshot 2025-10-12 230359" src="https://github.com/user-attachments/assets/23fb49bf-188f-4745-aec0-fd1d1e8651b4" />
 
  
+
 
 
 
