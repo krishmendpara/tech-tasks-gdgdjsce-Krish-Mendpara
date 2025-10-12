@@ -29,7 +29,7 @@ export default function FAQSection() {
   const [openIdx, setOpenIdx] = useState(0);
 
   return (
-    <div className="max-w-3xl mx-auto pt-10 pb-14">
+    <div className="max-w-5xl mx-auto pt-10 pb-14">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
         Top Car Rental Questions
       </h2>

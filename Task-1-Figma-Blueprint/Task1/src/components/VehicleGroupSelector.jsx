@@ -34,7 +34,7 @@ export default function VehicleGroupSelector() {
       : cars.filter((car) => car.type === activeFilter);
 
   return (
-    <div className="flex flex-col items-center min-h-screen bg-white py-8 px-2">
+    <div className="flex flex-col items-center pb-5 min-h-screen bg-white py-8 px-2">
       <h1 className="text-4xl font-extrabold mb-5 text-center">Select a vehicle group</h1>
       <div className="flex flex-wrap gap-3 mb-8 justify-center">
         {filters.map(f => (
