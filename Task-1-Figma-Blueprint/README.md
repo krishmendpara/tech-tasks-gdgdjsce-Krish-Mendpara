@@ -29,12 +29,12 @@ This project highlights my ability to:
    - Easy-to-modify config for theme and breakpoints
 🌍 Deployment
 
-   This project is currently not live-deployed. To view and test locally:
-   git clone "https://github.com/krishmendpara/tech-tasks-gdgdjsce-Krish-Mendpara.git"
-   cd cd .\Task-1-Figma-Blueprint\
-   cd cd .\Task1\
-   npm install
-   npm run dev
+   <br>This project is currently not live-deployed. To view and test locally:<b><br/>
+   git clone "https://github.com/krishmendpara/tech-tasks-gdgdjsce-Krish-Mendpara.git"<br/>
+   cd cd .\Task-1-Figma-Blueprint\ <br/>
+   cd cd .\Task1\ <br/>
+   npm install <br/>
+   npm run dev<br/>
 
  <b> Screenshots<b>
  <img width="874" height="904" alt="Screenshot 2025-10-12 225609" src="https://github.com/user-attachments/assets/84182f0b-f2a2-479f-9422-5f770710efe3" />
@@ -50,5 +50,6 @@ This project highlights my ability to:
 <img width="1525" height="912" alt="Screenshot 2025-10-12 230359" src="https://github.com/user-attachments/assets/23fb49bf-188f-4745-aec0-fd1d1e8651b4" />
 
  
+
 
 
